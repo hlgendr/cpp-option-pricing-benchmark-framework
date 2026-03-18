@@ -1,7 +1,7 @@
 #ifndef RESUMECORE_COMMON_BENCHMARKROW_HPP
 #define RESUMECORE_COMMON_BENCHMARKROW_HPP
 
-#include "ResumeCore/Common/PricingResult.hpp"
+#include "BenchmarkCore/Common/PricingResult.hpp"
 
 #include <limits>
 #include <string>

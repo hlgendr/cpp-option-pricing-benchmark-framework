@@ -1,9 +1,9 @@
 #ifndef RESUMECORE_ADAPTERS_EXACTPRICER_HPP
 #define RESUMECORE_ADAPTERS_EXACTPRICER_HPP
 
-#include "ResumeCore/Common/MethodConfig.hpp"
-#include "ResumeCore/Common/PricingResult.hpp"
-#include "ResumeCore/Common/VanillaOptionSpec.hpp"
+#include "BenchmarkCore/Common/MethodConfig.hpp"
+#include "BenchmarkCore/Common/PricingResult.hpp"
+#include "BenchmarkCore/Common/VanillaOptionSpec.hpp"
 
 class ExactPricer
 {

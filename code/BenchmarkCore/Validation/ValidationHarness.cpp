@@ -1,10 +1,10 @@
-#include "ResumeCore/Validation/ValidationHarness.hpp"
+#include "BenchmarkCore/Validation/ValidationHarness.hpp"
 
-#include "ResumeCore/Adapters/BinomialPricer.hpp"
-#include "ResumeCore/Adapters/ExactPricer.hpp"
-#include "ResumeCore/Adapters/FDMPricer.hpp"
-#include "ResumeCore/Adapters/MCPricer.hpp"
-#include "ResumeCore/Experiments/ExperimentRunner.hpp"
+#include "BenchmarkCore/Adapters/BinomialPricer.hpp"
+#include "BenchmarkCore/Adapters/ExactPricer.hpp"
+#include "BenchmarkCore/Adapters/FDMPricer.hpp"
+#include "BenchmarkCore/Adapters/MCPricer.hpp"
+#include "BenchmarkCore/Experiments/ExperimentRunner.hpp"
 
 #include <cmath>
 #include <fstream>

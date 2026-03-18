@@ -1,8 +1,8 @@
 #ifndef RESUMECORE_EXPERIMENTS_EXPERIMENTPACK_HPP
 #define RESUMECORE_EXPERIMENTS_EXPERIMENTPACK_HPP
 
-#include "ResumeCore/Common/BenchmarkCase.hpp"
-#include "ResumeCore/Common/MethodConfig.hpp"
+#include "BenchmarkCore/Common/BenchmarkCase.hpp"
+#include "BenchmarkCore/Common/MethodConfig.hpp"
 
 #include <vector>
 

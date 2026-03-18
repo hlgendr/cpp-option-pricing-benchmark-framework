@@ -1,7 +1,7 @@
 #ifndef RESUMECORE_VALIDATION_VALIDATIONHARNESS_HPP
 #define RESUMECORE_VALIDATION_VALIDATIONHARNESS_HPP
 
-#include "ResumeCore/Experiments/ExperimentPack.hpp"
+#include "BenchmarkCore/Experiments/ExperimentPack.hpp"
 
 #include <filesystem>
 #include <string>

@@ -78,32 +78,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\ResumeCore\Adapters\BinomialPricer.cpp" />
-    <ClCompile Include="..\..\..\ResumeCore\Adapters\ExactPricer.cpp" />
-    <ClCompile Include="..\..\..\ResumeCore\Adapters\FDMPricer.cpp" />
-    <ClCompile Include="..\..\..\ResumeCore\Adapters\MCPricer.cpp" />
-    <ClCompile Include="..\..\..\ResumeCore\App\main.cpp" />
-    <ClCompile Include="..\..\..\ResumeCore\Experiments\ExperimentPack.cpp" />
-    <ClCompile Include="..\..\..\ResumeCore\Experiments\ExperimentRunner.cpp" />
-    <ClCompile Include="..\..\..\ResumeCore\Validation\ValidationHarness.cpp" />
+    <ClCompile Include="..\..\..\BenchmarkCore\Adapters\BinomialPricer.cpp" />
+    <ClCompile Include="..\..\..\BenchmarkCore\Adapters\ExactPricer.cpp" />
+    <ClCompile Include="..\..\..\BenchmarkCore\Adapters\FDMPricer.cpp" />
+    <ClCompile Include="..\..\..\BenchmarkCore\Adapters\MCPricer.cpp" />
+    <ClCompile Include="..\..\..\BenchmarkCore\App\main.cpp" />
+    <ClCompile Include="..\..\..\BenchmarkCore\Experiments\ExperimentPack.cpp" />
+    <ClCompile Include="..\..\..\BenchmarkCore\Experiments\ExperimentRunner.cpp" />
+    <ClCompile Include="..\..\..\BenchmarkCore\Validation\ValidationHarness.cpp" />
     <ClCompile Include="..\..\..\UtilitiesDJD\RNG\NormalGenerator.cpp" />
     <ClCompile Include="..\..\..\VI.3\PlainOption\EuropeanOption.cpp" />
     <ClCompile Include="..\..\..\VI.6\BinomialLatticeStrategy.cpp" />
     <ClCompile Include="..\..\..\VI.6\BinomialMethod.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\ResumeCore\Adapters\BinomialPricer.hpp" />
-    <ClInclude Include="..\..\..\ResumeCore\Adapters\ExactPricer.hpp" />
-    <ClInclude Include="..\..\..\ResumeCore\Adapters\FDMPricer.hpp" />
-    <ClInclude Include="..\..\..\ResumeCore\Adapters\MCPricer.hpp" />
-    <ClInclude Include="..\..\..\ResumeCore\Common\BenchmarkCase.hpp" />
-    <ClInclude Include="..\..\..\ResumeCore\Common\BenchmarkRow.hpp" />
-    <ClInclude Include="..\..\..\ResumeCore\Common\MethodConfig.hpp" />
-    <ClInclude Include="..\..\..\ResumeCore\Common\PricingResult.hpp" />
-    <ClInclude Include="..\..\..\ResumeCore\Common\VanillaOptionSpec.hpp" />
-    <ClInclude Include="..\..\..\ResumeCore\Experiments\ExperimentPack.hpp" />
-    <ClInclude Include="..\..\..\ResumeCore\Experiments\ExperimentRunner.hpp" />
-    <ClInclude Include="..\..\..\ResumeCore\Validation\ValidationHarness.hpp" />
+    <ClInclude Include="..\..\..\BenchmarkCore\Adapters\BinomialPricer.hpp" />
+    <ClInclude Include="..\..\..\BenchmarkCore\Adapters\ExactPricer.hpp" />
+    <ClInclude Include="..\..\..\BenchmarkCore\Adapters\FDMPricer.hpp" />
+    <ClInclude Include="..\..\..\BenchmarkCore\Adapters\MCPricer.hpp" />
+    <ClInclude Include="..\..\..\BenchmarkCore\Common\BenchmarkCase.hpp" />
+    <ClInclude Include="..\..\..\BenchmarkCore\Common\BenchmarkRow.hpp" />
+    <ClInclude Include="..\..\..\BenchmarkCore\Common\MethodConfig.hpp" />
+    <ClInclude Include="..\..\..\BenchmarkCore\Common\PricingResult.hpp" />
+    <ClInclude Include="..\..\..\BenchmarkCore\Common\VanillaOptionSpec.hpp" />
+    <ClInclude Include="..\..\..\BenchmarkCore\Experiments\ExperimentPack.hpp" />
+    <ClInclude Include="..\..\..\BenchmarkCore\Experiments\ExperimentRunner.hpp" />
+    <ClInclude Include="..\..\..\BenchmarkCore\Validation\ValidationHarness.hpp" />
     <ClInclude Include="..\..\..\UtilitiesDJD\RNG\NormalGenerator.hpp" />
     <ClInclude Include="..\..\..\VI.3\PlainOption\EuropeanOption.hpp" />
     <ClInclude Include="..\..\..\VI.4\OptionData.hpp" />

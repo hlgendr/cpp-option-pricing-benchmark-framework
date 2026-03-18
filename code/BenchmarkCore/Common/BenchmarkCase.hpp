@@ -1,7 +1,7 @@
 #ifndef RESUMECORE_COMMON_BENCHMARKCASE_HPP
 #define RESUMECORE_COMMON_BENCHMARKCASE_HPP
 
-#include "ResumeCore/Common/VanillaOptionSpec.hpp"
+#include "BenchmarkCore/Common/VanillaOptionSpec.hpp"
 
 #include <string>
 

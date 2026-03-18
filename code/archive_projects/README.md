@@ -24,4 +24,4 @@ The main project entrypoint is:
 
 The shared benchmark layer lives under:
 
-- [../ResumeCore/](../ResumeCore/)
+- [../BenchmarkCore/](../BenchmarkCore/)

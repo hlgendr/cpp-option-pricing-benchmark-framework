@@ -32,7 +32,7 @@ American pricing, CIR, and Excel demo material are preserved as side paths, but 
 ## Repository Highlights
 
 - Core benchmark app: [code/Projects/OptionPricingBench/](code/Projects/OptionPricingBench/)
-- Shared benchmark layer: [code/ResumeCore/](code/ResumeCore/)
+- Shared benchmark layer: [code/BenchmarkCore/](code/BenchmarkCore/)
 - Archived standalone reference solutions: [code/archive_projects/](code/archive_projects/)
 - Result figures: [results/figures/](results/figures/)
 - Summary tables: [results/tables/](results/tables/)
@@ -49,7 +49,7 @@ The benchmark executable now supports lightweight run modes:
 - `validation`: validation harness only
 - `all`: run everything and refresh all raw outputs
 
-The entrypoint is [code/ResumeCore/App/main.cpp](code/ResumeCore/App/main.cpp).
+The entrypoint is [code/BenchmarkCore/App/main.cpp](code/BenchmarkCore/App/main.cpp).
 
 ## Key V2 Features
 
@@ -119,11 +119,11 @@ Detailed environment and dependency notes are in [BUILD.md](BUILD.md).
 
 ## Useful Source Entry Points
 
-- [ResumeCore/Common/MethodConfig.hpp](code/ResumeCore/Common/MethodConfig.hpp)
-- [ResumeCore/Adapters/MCPricer.cpp](code/ResumeCore/Adapters/MCPricer.cpp)
-- [ResumeCore/Experiments/ExperimentPack.cpp](code/ResumeCore/Experiments/ExperimentPack.cpp)
-- [ResumeCore/Experiments/ExperimentRunner.cpp](code/ResumeCore/Experiments/ExperimentRunner.cpp)
-- [ResumeCore/Validation/ValidationHarness.cpp](code/ResumeCore/Validation/ValidationHarness.cpp)
+- [BenchmarkCore/Common/MethodConfig.hpp](code/BenchmarkCore/Common/MethodConfig.hpp)
+- [BenchmarkCore/Adapters/MCPricer.cpp](code/BenchmarkCore/Adapters/MCPricer.cpp)
+- [BenchmarkCore/Experiments/ExperimentPack.cpp](code/BenchmarkCore/Experiments/ExperimentPack.cpp)
+- [BenchmarkCore/Experiments/ExperimentRunner.cpp](code/BenchmarkCore/Experiments/ExperimentRunner.cpp)
+- [BenchmarkCore/Validation/ValidationHarness.cpp](code/BenchmarkCore/Validation/ValidationHarness.cpp)
 
 ## Presentation Value
 

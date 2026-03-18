@@ -1,4 +1,4 @@
-#include "ResumeCore/Adapters/ExactPricer.hpp"
+#include "BenchmarkCore/Adapters/ExactPricer.hpp"
 
 #include "VI.3/PlainOption/EuropeanOption.hpp"
 

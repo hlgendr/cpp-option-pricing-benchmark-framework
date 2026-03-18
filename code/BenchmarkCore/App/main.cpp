@@ -1,6 +1,6 @@
-#include "ResumeCore/Experiments/ExperimentPack.hpp"
-#include "ResumeCore/Experiments/ExperimentRunner.hpp"
-#include "ResumeCore/Validation/ValidationHarness.hpp"
+#include "BenchmarkCore/Experiments/ExperimentPack.hpp"
+#include "BenchmarkCore/Experiments/ExperimentRunner.hpp"
+#include "BenchmarkCore/Validation/ValidationHarness.hpp"
 
 #include <cstdlib>
 #include <filesystem>

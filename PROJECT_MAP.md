@@ -10,11 +10,11 @@ The benchmark source lives under:
 
 ## Benchmark Framework Layers
 
-### `code/ResumeCore/Common/`
+### `code/BenchmarkCore/Common/`
 
 Link:
 
-- [ResumeCore/Common/](code/ResumeCore/Common/)
+- [BenchmarkCore/Common/](code/BenchmarkCore/Common/)
 
 Purpose:
 
@@ -30,11 +30,11 @@ Key files:
 - `BenchmarkCase.hpp`
 - `BenchmarkRow.hpp`
 
-### `code/ResumeCore/Adapters/`
+### `code/BenchmarkCore/Adapters/`
 
 Link:
 
-- [ResumeCore/Adapters/](code/ResumeCore/Adapters/)
+- [BenchmarkCore/Adapters/](code/BenchmarkCore/Adapters/)
 
 Purpose:
 
@@ -49,11 +49,11 @@ Key files:
 - `MCPricer.*`
 - `FDMPricer.*`
 
-### `code/ResumeCore/Experiments/`
+### `code/BenchmarkCore/Experiments/`
 
 Link:
 
-- [ResumeCore/Experiments/](code/ResumeCore/Experiments/)
+- [BenchmarkCore/Experiments/](code/BenchmarkCore/Experiments/)
 
 Purpose:
 
@@ -67,11 +67,11 @@ Key files:
 - `ExperimentPack.*`
 - `ExperimentRunner.*`
 
-### `code/ResumeCore/Validation/`
+### `code/BenchmarkCore/Validation/`
 
 Link:
 
-- [ResumeCore/Validation/](code/ResumeCore/Validation/)
+- [BenchmarkCore/Validation/](code/BenchmarkCore/Validation/)
 
 Purpose:
 
@@ -83,11 +83,11 @@ Key files:
 
 - `ValidationHarness.*`
 
-### `code/ResumeCore/App/`
+### `code/BenchmarkCore/App/`
 
 Link:
 
-- [ResumeCore/App/](code/ResumeCore/App/)
+- [BenchmarkCore/App/](code/BenchmarkCore/App/)
 
 Purpose:
 
@@ -206,7 +206,7 @@ Reads the latest raw outputs and regenerates the packaged `results/` assets.
 For GitHub, resume, and interview purposes, the main story should begin with:
 
 1. `OptionPricingBench.sln`
-2. `ResumeCore/`
+2. `BenchmarkCore/`
 3. `results/`
 
 Historical reference entrypoints remain available, but they are no longer the recommended way to enter the project.

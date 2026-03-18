@@ -1,4 +1,4 @@
-#include "ResumeCore/Adapters/BinomialPricer.hpp"
+#include "BenchmarkCore/Adapters/BinomialPricer.hpp"
 
 #include "VI.6/BinomialLatticeStrategy.hpp"
 #include "VI.6/BinomialMethod.hpp"

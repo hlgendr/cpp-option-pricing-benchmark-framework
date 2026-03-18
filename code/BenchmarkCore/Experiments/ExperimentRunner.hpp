@@ -1,8 +1,8 @@
 #ifndef RESUMECORE_EXPERIMENTS_EXPERIMENTRUNNER_HPP
 #define RESUMECORE_EXPERIMENTS_EXPERIMENTRUNNER_HPP
 
-#include "ResumeCore/Common/BenchmarkRow.hpp"
-#include "ResumeCore/Experiments/ExperimentPack.hpp"
+#include "BenchmarkCore/Common/BenchmarkRow.hpp"
+#include "BenchmarkCore/Experiments/ExperimentPack.hpp"
 
 #include <filesystem>
 #include <vector>

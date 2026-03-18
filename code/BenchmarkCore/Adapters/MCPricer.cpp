@@ -1,6 +1,6 @@
-#include "ResumeCore/Adapters/MCPricer.hpp"
+#include "BenchmarkCore/Adapters/MCPricer.hpp"
 
-#include "ResumeCore/Adapters/ExactPricer.hpp"
+#include "BenchmarkCore/Adapters/ExactPricer.hpp"
 #include "UtilitiesDJD/RNG/NormalGenerator.hpp"
 #include "VI.4/OptionData.hpp"
 
