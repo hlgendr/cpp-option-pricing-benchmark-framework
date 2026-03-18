@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="#fbfaf5"/>
+<style>
+text { font-family: Georgia, "Times New Roman", serif; fill: #1f1f1f; }
+.title { font-size: 26px; font-weight: 700; }
+.subtitle { font-size: 14px; fill: #4f4a40; }
+.axis { stroke: #4f4a40; stroke-width: 1.2; }
+.grid { stroke: #ddd6c8; stroke-width: 1; }
+.label { font-size: 13px; }
+.tick { font-size: 12px; fill: #615a50; }
+.legend { font-size: 13px; }
+.annotation { font-size: 12px; fill: #4f4a40; }
+</style>
+<text x="60" y="52" class="title">Binomial Convergence Study</text>
+<text x="60" y="78" class="subtitle">Absolute error versus CRR step count on two ATM cases</text>
+<line x1="90" y1="470" x2="900" y2="470" class="axis"/>
+<line x1="90" y1="150" x2="90" y2="470" class="axis"/>
+<text x="90" y="130" class="label">Absolute Error</text>
+<line x1="130" y1="170" x2="130" y2="470" class="grid"/>
+<text x="118" y="492" class="tick">25</text>
+<line x1="252" y1="170" x2="252" y2="470" class="grid"/>
+<text x="240" y="492" class="tick">50</text>
+<line x1="373" y1="170" x2="373" y2="470" class="grid"/>
+<text x="361" y="492" class="tick">100</text>
+<line x1="495" y1="170" x2="495" y2="470" class="grid"/>
+<text x="483" y="492" class="tick">200</text>
+<line x1="617" y1="170" x2="617" y2="470" class="grid"/>
+<text x="605" y="492" class="tick">400</text>
+<line x1="738" y1="170" x2="738" y2="470" class="grid"/>
+<text x="726" y="492" class="tick">800</text>
+<line x1="860" y1="170" x2="860" y2="470" class="grid"/>
+<text x="848" y="492" class="tick">1600</text>
+<polyline fill="none" stroke="#d97757" stroke-width="3" points="130,398 252,172 373,395 495,427 617,433 738,467 860,460"/>
+<circle cx="130" cy="398" r="4" fill="#d97757"/>
+<circle cx="252" cy="172" r="4" fill="#d97757"/>
+<circle cx="373" cy="395" r="4" fill="#d97757"/>
+<circle cx="495" cy="427" r="4" fill="#d97757"/>
+<circle cx="617" cy="433" r="4" fill="#d97757"/>
+<circle cx="738" cy="467" r="4" fill="#d97757"/>
+<circle cx="860" cy="460" r="4" fill="#d97757"/>
+<rect x="670" y="100" width="14" height="14" fill="#d97757"/>
+<text x="692" y="110" class="legend">atm_call_1y</text>
+<polyline fill="none" stroke="#5b7db8" stroke-width="3" points="130,403 252,170 373,394 495,428 617,432 738,467 860,460"/>
+<circle cx="130" cy="403" r="4" fill="#5b7db8"/>
+<circle cx="252" cy="170" r="4" fill="#5b7db8"/>
+<circle cx="373" cy="394" r="4" fill="#5b7db8"/>
+<circle cx="495" cy="428" r="4" fill="#5b7db8"/>
+<circle cx="617" cy="432" r="4" fill="#5b7db8"/>
+<circle cx="738" cy="467" r="4" fill="#5b7db8"/>
+<circle cx="860" cy="460" r="4" fill="#5b7db8"/>
+<rect x="670" y="122" width="14" height="14" fill="#5b7db8"/>
+<text x="692" y="132" class="legend">atm_put_1y</text>
+</svg>

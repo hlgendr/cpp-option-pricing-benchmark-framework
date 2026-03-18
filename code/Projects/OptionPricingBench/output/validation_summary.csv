@@ -1,0 +1,10 @@
+suite,check_name,status,observed,expected,tolerance,notes
+"exact","exact_repeatability_atm_call_1y","PASS",0.000000,0.000000,0.000000,"Repricing the same exact case twice should be stable."
+"exact","exact_known_call_value_atm_call_1y","PASS",10.450584,10.450584,0.000100,"Regression anchor for the closed-form call price."
+"exact","exact_known_put_value_atm_put_1y","PASS",5.573526,5.573526,0.000100,"Regression anchor for the closed-form put price."
+"parity","put_call_parity_atm_1y","PASS",4.877058,4.877058,0.000001,"Exact call and put prices should satisfy Black-Scholes put-call parity."
+"benchmark","benchmark_row_count_and_finite_outputs","PASS",0.000000,0.000000,0.000000,"Primary benchmark should emit 4 methods per case with finite price/runtime values."
+"approximation","binomial_accuracy_atm_call_1y","PASS",0.004620,0.000000,0.020000,"Baseline lattice price should stay within a practical tolerance of the exact price."
+"approximation","fdm_accuracy_atm_call_1y","PASS",0.027573,0.000000,0.050000,"Baseline explicit-Euler FDM price should stay within a practical tolerance."
+"mc_v2","mc_control_error_within_three_sigma_atm_call_1y","PASS",0.002956,0.000000,0.004189,"Control-variate MC error should stay within three standard errors on the ATM call anchor case."
+"mc_v2","mc_control_reduces_standard_error_vs_crude_atm_call_1y","PASS",0.001396,0.085645,0.000000,"Control variate should reduce standard error relative to crude MC at the same sample budget."

@@ -1,0 +1,10 @@
+study,case_name,variant,start_config,end_config,start_error,end_error,start_std_error,end_std_error,end_runtime_ms
+"binomial_convergence","atm_call_1y","","steps=25","steps=1600",0.008871,0.001191,,,242.512792
+"binomial_convergence","atm_put_1y","","steps=25","steps=1600",0.008338,0.001182,,,260.990875
+"mc_variance","atm_call_1y","Crude","sims=1000","sims=60000;seed=42",0.031919,0.035784,0.469545,0.060163,279.783333
+"mc_variance","atm_call_1y","Antithetic","sims=1000","sims=60000;seed=42",0.236292,0.017599,0.235160,0.030112,214.624417
+"mc_variance","atm_call_1y","ControlVariate","sims=1000","sims=60000;seed=42",0.010330,0.002768,0.007450,0.000986,416.183250
+"mc_variance","atm_put_1y","Crude","sims=1000","sims=60000;seed=42",0.294525,0.043100,0.280848,0.035529,308.592625
+"mc_variance","atm_put_1y","Antithetic","sims=1000","sims=60000;seed=42",0.159769,0.008566,0.150553,0.019235,232.019500
+"mc_variance","atm_put_1y","ControlVariate","sims=1000","sims=60000;seed=42",0.000160,0.000166,0.005091,0.000635,319.331709
+"fdm_grid_study","atm_call_1y","","J=40;N=8000","J=120;N=72000",0.260633,0.027572,,,895.243792

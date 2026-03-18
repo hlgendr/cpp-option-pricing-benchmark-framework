@@ -1,0 +1,4 @@
+variant,avg_abs_error,avg_standard_error,avg_ci_width,best_abs_error
+"Crude",0.091678,0.154977,0.607512,0.000290
+"Antithetic",0.062828,0.079598,0.312025,0.001127
+"ControlVariate",0.002914,0.002606,0.010214,0.000160

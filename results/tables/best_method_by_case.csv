@@ -1,0 +1,7 @@
+case_name,best_method,absolute_error,relative_error,runtime_ms
+"atm_call_1y","MC",0.002956,0.000283,138.009791
+"atm_put_1y","MC",0.000473,0.000085,136.099000
+"itm_call_2y","MC",0.003548,0.000119,190.815250
+"itm_put_9m","Binomial",0.001277,0.000081,24.714291
+"otm_call_18m","Binomial",0.000281,0.000028,13.069750
+"otm_put_2y","Binomial",0.005539,0.000667,13.882500

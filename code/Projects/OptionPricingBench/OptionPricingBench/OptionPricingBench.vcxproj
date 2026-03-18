@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2B10582D-9FC3-4539-B408-061C527AE2FF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OptionPricingBench</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <IncludePath>$(BOOST_ROOT);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <IncludePath>$(BOOST_ROOT);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ResumeCore\Adapters\BinomialPricer.cpp" />
+    <ClCompile Include="..\..\..\ResumeCore\Adapters\ExactPricer.cpp" />
+    <ClCompile Include="..\..\..\ResumeCore\Adapters\FDMPricer.cpp" />
+    <ClCompile Include="..\..\..\ResumeCore\Adapters\MCPricer.cpp" />
+    <ClCompile Include="..\..\..\ResumeCore\App\main.cpp" />
+    <ClCompile Include="..\..\..\ResumeCore\Experiments\ExperimentPack.cpp" />
+    <ClCompile Include="..\..\..\ResumeCore\Experiments\ExperimentRunner.cpp" />
+    <ClCompile Include="..\..\..\ResumeCore\Validation\ValidationHarness.cpp" />
+    <ClCompile Include="..\..\..\UtilitiesDJD\RNG\NormalGenerator.cpp" />
+    <ClCompile Include="..\..\..\VI.3\PlainOption\EuropeanOption.cpp" />
+    <ClCompile Include="..\..\..\VI.6\BinomialLatticeStrategy.cpp" />
+    <ClCompile Include="..\..\..\VI.6\BinomialMethod.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ResumeCore\Adapters\BinomialPricer.hpp" />
+    <ClInclude Include="..\..\..\ResumeCore\Adapters\ExactPricer.hpp" />
+    <ClInclude Include="..\..\..\ResumeCore\Adapters\FDMPricer.hpp" />
+    <ClInclude Include="..\..\..\ResumeCore\Adapters\MCPricer.hpp" />
+    <ClInclude Include="..\..\..\ResumeCore\Common\BenchmarkCase.hpp" />
+    <ClInclude Include="..\..\..\ResumeCore\Common\BenchmarkRow.hpp" />
+    <ClInclude Include="..\..\..\ResumeCore\Common\MethodConfig.hpp" />
+    <ClInclude Include="..\..\..\ResumeCore\Common\PricingResult.hpp" />
+    <ClInclude Include="..\..\..\ResumeCore\Common\VanillaOptionSpec.hpp" />
+    <ClInclude Include="..\..\..\ResumeCore\Experiments\ExperimentPack.hpp" />
+    <ClInclude Include="..\..\..\ResumeCore\Experiments\ExperimentRunner.hpp" />
+    <ClInclude Include="..\..\..\ResumeCore\Validation\ValidationHarness.hpp" />
+    <ClInclude Include="..\..\..\UtilitiesDJD\RNG\NormalGenerator.hpp" />
+    <ClInclude Include="..\..\..\VI.3\PlainOption\EuropeanOption.hpp" />
+    <ClInclude Include="..\..\..\VI.4\OptionData.hpp" />
+    <ClInclude Include="..\..\..\VI.5\FDM.hpp" />
+    <ClInclude Include="..\..\..\VI.5\FDMDirector.hpp" />
+    <ClInclude Include="..\..\..\VI.5\Mesher.hpp" />
+    <ClInclude Include="..\..\..\VI.5\ParabolicPDE.hpp" />
+    <ClInclude Include="..\..\..\VI.6\BinomialLatticeStrategy.hpp" />
+    <ClInclude Include="..\..\..\VI.6\BinomialMethod.hpp" />
+    <ClInclude Include="..\..\..\VI.6\lattice.hpp" />
+    <ClInclude Include="..\..\..\VI.6\Option.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

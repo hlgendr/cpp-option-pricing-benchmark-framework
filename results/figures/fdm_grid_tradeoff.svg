@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="#fbfaf5"/>
+<style>
+text { font-family: Georgia, "Times New Roman", serif; fill: #1f1f1f; }
+.title { font-size: 26px; font-weight: 700; }
+.subtitle { font-size: 14px; fill: #4f4a40; }
+.axis { stroke: #4f4a40; stroke-width: 1.2; }
+.grid { stroke: #ddd6c8; stroke-width: 1; }
+.label { font-size: 13px; }
+.tick { font-size: 12px; fill: #615a50; }
+.legend { font-size: 13px; }
+.annotation { font-size: 12px; fill: #4f4a40; }
+</style>
+<text x="60" y="52" class="title">FDM Grid / Runtime Trade-off</text>
+<text x="60" y="78" class="subtitle">Explicit Euler grid refinement on atm_call_1y</text>
+<line x1="100" y1="470" x2="900" y2="470" class="axis"/>
+<line x1="100" y1="150" x2="100" y2="470" class="axis"/>
+<text x="100" y="130" class="label">Absolute Error</text>
+<text x="720" y="500" class="label">Runtime (ms)</text>
+<circle cx="170" cy="190" r="8" fill="#5b7db8" opacity="0.88"/>
+<text x="182" y="184" class="annotation">J=40, N=8000</text>
+<circle cx="245" cy="350" r="8" fill="#5b7db8" opacity="0.88"/>
+<text x="257" y="344" class="annotation">J=60, N=18000</text>
+<circle cx="377" cy="403" r="8" fill="#5b7db8" opacity="0.88"/>
+<text x="389" y="397" class="annotation">J=80, N=32000</text>
+<circle cx="600" cy="427" r="8" fill="#5b7db8" opacity="0.88"/>
+<text x="612" y="421" class="annotation">J=100, N=50000</text>
+<circle cx="860" cy="440" r="8" fill="#5b7db8" opacity="0.88"/>
+<text x="872" y="434" class="annotation">J=120, N=72000</text>
+</svg>

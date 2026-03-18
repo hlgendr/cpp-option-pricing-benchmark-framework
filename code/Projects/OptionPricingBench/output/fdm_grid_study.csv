@@ -1,0 +1,6 @@
+case_name,option_type,space_steps,time_steps,smax_multiplier,exact_price,price,runtime_ms,absolute_error,relative_error,config,notes
+"atm_call_1y","Call",40,8000,4.000000,10.450584,10.189950,37.733083,0.260633,0.024940,"scheme=ExplicitEuler;spaceSteps=40;timeSteps=8000;smaxMultiplier=4","Legacy explicit-Euler PDE core via adapter"
+"atm_call_1y","Call",60,18000,4.000000,10.450584,10.338465,130.273250,0.112118,0.010728,"scheme=ExplicitEuler;spaceSteps=60;timeSteps=18000;smaxMultiplier=4","Legacy explicit-Euler PDE core via adapter"
+"atm_call_1y","Call",80,32000,4.000000,10.450584,10.388132,294.281583,0.062451,0.005976,"scheme=ExplicitEuler;spaceSteps=80;timeSteps=32000;smaxMultiplier=4","Legacy explicit-Euler PDE core via adapter"
+"atm_call_1y","Call",100,50000,4.000000,10.450584,10.410788,571.640000,0.039796,0.003808,"scheme=ExplicitEuler;spaceSteps=100;timeSteps=50000;smaxMultiplier=4","Legacy explicit-Euler PDE core via adapter"
+"atm_call_1y","Call",120,72000,4.000000,10.450584,10.423012,895.243792,0.027572,0.002638,"scheme=ExplicitEuler;spaceSteps=120;timeSteps=72000;smaxMultiplier=4","Legacy explicit-Euler PDE core via adapter"
